@@ -34,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
             parentRecyclerViewAdapter.getData().add(horizontalListData);
         }
         mainRecyclerView.setAdapter(parentRecyclerViewAdapter);
+        //
     }
 }
